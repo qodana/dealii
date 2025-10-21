@@ -13,8 +13,6 @@ apt-get update
 echo "Installing essential build tools..."
 apt-get install -y \
     build-essential \
-    cmake \
-    git \
     wget \
     ca-certificates \
     pkg-config
