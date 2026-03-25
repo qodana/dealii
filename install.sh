@@ -7,11 +7,11 @@ echo "========================================="
 
 # Update package list
 echo "Updating package list..."
-apt-get update
+sudo apt-get update
 
 # Install essential build tools
 echo "Installing essential build tools..."
-apt-get install -y \
+sudo apt-get install -y \
     build-essential \
     wget \
     ca-certificates \
@@ -19,7 +19,7 @@ apt-get install -y \
 
 # Install required and recommended dependencies
 echo "Installing deal.II dependencies..."
-apt-get install -y \
+sudo apt-get install -y \
     libboost-all-dev \
     libblas-dev \
     liblapack-dev \
